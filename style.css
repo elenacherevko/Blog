@@ -18,7 +18,12 @@
  }
 
  .header{
-padding: 20px 0;
+     width: 100%;
+     padding: 20px 0;
+     position: fixed;
+     top: 0;
+     left :0;
+     z-index: 100;
 
 
  }
@@ -90,25 +95,58 @@ padding: 20px 0;
 }
 
 .welcome__heading{
+    margin-bottom: 70px;
     font-size: 59px;
     line-height: 1;
     letter-spacing:4px;
     text-transform: uppercase;
 
+
+
 }
 
-.welcome__links{
+.welcome__links> * + * {
+    margin-left: 20px;
+
 
 
 }
 
 .link-primary{
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
 
 
+}
+.link-primary:hover{
+    background-color: antiquewhite;
+}
+
+.link-primary:active{
+    background-color: white;
 }
 
 
 .link{
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
 
+}
+.link:hover{
+    background-color: antiquewhite;
+}
+
+.link:active{
+    background-color: white;
 
 }
