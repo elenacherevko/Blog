@@ -17,16 +17,46 @@
      line-height: 1.8 ;
  }
 
- .header{
-     width: 100%;
-     padding: 20px 0;
-     position: fixed;
-     top: 0;
-     left :0;
-     z-index: 100;
 
 
- }
+.hide{
+    display: none !important;
+
+}
+
+.title-wrapper{
+    margin-bottom: 70px;
+
+}
+
+.title{
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 17px;
+
+
+
+}
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+/*-------------HEADER-----------*/
+
+.header{
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left :0;
+    z-index: 100;
+
+
+}
 
  .header__container{
      display: flex;
@@ -37,10 +67,9 @@
 
  .logo{
      font-size: 25px;
-
      letter-spacing: 4px;
      text-transform: uppercase;
-     color: rosybrown;
+     color: black;
 
  }
 
@@ -55,24 +84,20 @@
 
  .header__nav a {
      font-size: 16px;
-     color: gray;
+     color: black;
 
 
  }
-
 .header__nav a:hover {
-    color:red;
+    color:#e8dfd6;
 
 }
 
 .header__nav a:active{
-    color: violet;
+    color:#e8dfd6;
 }
 
 
-.main{
-
-}
 
 .welcome{
     display: flex;
@@ -89,14 +114,10 @@
 
 }
 
-.container{
-
-
-}
 
 .welcome__heading{
     margin-bottom: 70px;
-    font-size: 59px;
+    font-size: 49px;
     line-height: 1;
     letter-spacing:4px;
     text-transform: uppercase;
@@ -124,11 +145,11 @@
 
 }
 .link-primary:hover{
-    background-color: antiquewhite;
+    background-color: #e8dfd6;
 }
 
 .link-primary:active{
-    background-color: white;
+    background-color:white;;
 }
 
 
@@ -143,10 +164,130 @@
 
 }
 .link:hover{
-    background-color: antiquewhite;
+    background-color: #e8dfd6;
 }
 
 .link:active{
     background-color: white;
 
 }
+
+
+
+/*-----------What we do---------*/
+
+.about{
+    background-color:white;
+}
+
+.about .cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .card{
+    padding: 30px;
+
+}
+.about .card img{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
+/*---------Catalog-------*/
+
+.catalog{
+    background-color: #fbf8f1;
+
+}
+
+.catalog .cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.catalog .card{
+    padding: 30px;
+
+
+}
+
+.catalog .card img{
+    margin-bottom: 20px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+
+
+
+
+}
+
+.catalog .card h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+
+
+}
+.catalog .Link{
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+}
+
+/*--------TAB-SECTION---------*/
+
+.title{
+    margin-bottom: 60px;
+}
+.tab-section{
+    height: 100vh;
+
+
+}
+.tabs__item .img{
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+
+.tabs__nav{
+    margin-bottom: 50px;
+}
+
+.tabs__nav button{
+    padding: 0 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #e8dfd6;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+
+.tabs__nav button.active{
+    background-color:#e8dfd6;
+
+
+}
+.tabs__nav button + button{
+    margin-left: 15px;
+}
+
