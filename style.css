@@ -20,7 +20,7 @@
 
 
 .hide{
-    display: none !important;
+    display: none ;
 
 }
 
@@ -210,6 +210,7 @@
     flex-wrap: wrap;
 
 
+
 }
 
 .catalog .card{
@@ -250,20 +251,31 @@
 
 }
 
+
+.catalog .Link:hover{
+    background-color: #e8dfd6;
+}
+
+.catalog .Link:active{
+    background-color:white;;
+}
+
+
 /*--------TAB-SECTION---------*/
 
 .title{
     margin-bottom: 60px;
 }
 .tab-section{
-    height: 100vh;
+
+
 
 
 }
-.tabs__item .img{
+.tagImage{
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 600px;
+    width: 600px;
 }
 
 .tabs__nav{
@@ -290,4 +302,68 @@
 .tabs__nav button + button{
     margin-left: 15px;
 }
+
+/*-------------Footer---------*/
+
+.footer{
+    padding-top:40px;
+    background-color: #e8dfd6;
+    min-height: 200px;
+
+}
+
+.footer__desc h4{
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: black;
+
+
+}
+
+.footer__desc-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+
+}
+
+.footer__desc-container > * {
+
+
+
+}
+
+.footer__social{
+
+}
+
+.footer__links{
+
+}
+
+.footer__about{
+
+}
+
+.footer__desc a {
+    font-size:14px;
+    color: black;
+}
+
+.footer__desc li {
+    height: 30px;
+    width: 100%;
+
+
+}
+
+.footer__links img{
+    width:21px;
+    height:21px;
+    object-fit: contain;
+}
+
 
